@@ -1,0 +1,58 @@
+.Cabecalho{
+    text-align: center;
+}
+
+
+
+.PratoDia{
+    background: black;
+    color: red;
+    text-align: center;
+    width: 400px;
+    height: 80px;
+    margin: 0 300px;
+    
+    
+}
+
+.Amarelo{
+    background-color: yellow;
+    color: #000;
+    width: 400px;
+    height: 200px;
+    margin: 0 300px;
+}
+
+.Modo{
+    background-color: rosybrown;
+    color: #000;
+    width: 350px;
+    height: 90px;
+    margin: 0 25px;
+    text-align: center;
+   
+}
+
+.Modo2{
+    background-color: rosybrown;
+    color: #000;
+    width: 350px;
+    height: 90px;
+    margin: 5px 25px;
+    
+}
+
+.Texto{
+    margin: auto;
+}
+
+.Direitos{
+    background: blue;
+    color: white;
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    margin: 0 300px;
+    
+}
+
