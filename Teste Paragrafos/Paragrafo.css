@@ -1,0 +1,49 @@
+h1{
+    color: rebeccapurple;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: red;
+    text-align: center;
+    width: 0 50px;
+}
+
+p:hover{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#test1{
+    color: royalblue;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    background: wheat;
+
+}
+
+
+#test2{
+    color: #000;
+    text-align: center;
+    font-size: 200%;
+
+}
+
+.gif{
+    width: 200px;
+    height: 200px;
+    margin: 0 40%;
+    
+}
+
+.gif:hover{
+    width: 207px;
+    height: 207px;
+
+}
+
