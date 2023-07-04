@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+div#topo{
+    /* background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(14, 56, 3, 0.637), rgba(0, 0, 0, 0.7)), url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3AtMjAwLWV5ZS0wMzQyNzAyLmpwZw.jpg"); */
+    /* background-image:  linear-gradient(rgba(0, 0, 0, .7), rgba(14, 56, 3, 0.637), rgba(0, 0, 0, 0.7)), url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtMjIta3dhbi0wNTguanBn.jpg"); */
+    background-image:  linear-gradient(rgba(0, 0, 0, .7), rgba(14, 56, 3, 0.637), rgba(0, 0, 0, 0.7)), url("https://www.searchenginejournal.com/wp-content/uploads/2020/12/9-html-tags-11-attributes-you-must-know-for-seo-5fca27dc748f4-760x400.webp");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    height: 600px;
+    border-bottom: 1px solid #0fa543;
+}
+
+div#topo h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33db41, #14b714);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+div#topo #topo-logo{
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .4);
+    width: 270px;
+    height: 270px;
+    margin: auto;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+div#topo p{
+    font-size: 1.5rem;
+    margin: 16px 0 24px;
+}
+
+div#topo button{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: transparent;
+    border-image: linear-gradient(#33db41, #14b714);
+    border-image-slice: 10;
+    color: #14b714;
+}
+
+section{
+    margin: 100px auto;
+}
+
+section#conteudo .lista-modulos .modulos span{
+    color: #0fa543;
+}
+
+section#conteudo h2{
+    color: #0fa543;
+}
+
+section#conteudo p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color:white ;
+}
+
+section#conteudo{
+    width: 750px;
+    text-align: center;
+}
+
+div.list-modulos{
+   margin: 24px 0;
+   
+}
+
+div.modulos{
+    border: 1px solid #33db6d;
+    border-radius: 50px;
+    margin: 0 auto 24px;
+    width: 530px;
+    padding: 16px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    box-shadow: inset -5px 6px 8px rgb(0, 0, 0);
+}
+
+section#world{
+    height: 560px;
+    background-image: url(imagens/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 1px solid #0fa543;;
+    border-bottom: 1px solid #0fa543;;
+    padding: 200px;
+}
+
+section#world p{
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow: 3px 2px #0fa543;
+    color: white;
+    float: right;
+}
+
+section#challenges{
+    height: 750px;
+    text-align: center;
+    border-bottom: 1px solid #0fa543;
+}
+
+section#challenges h2{
+    font-size: 2rem;
+    color: #0fa543;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+section#challenges img{
+    margin: 32px 0;
+}
+
+section#challenges p{
+    color: white;
+}
+
+footer{
+    padding: 10px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(89, 219, 50, 0.2));
+}
+
+footer p{
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: #0fa543;
+}
+
+
+
+
