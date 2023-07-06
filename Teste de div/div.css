@@ -1,0 +1,15 @@
+body{
+    background-color: wheat;
+}
+.Menu{
+    margin: 20px 0;
+    color: black; 
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Conteudo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
