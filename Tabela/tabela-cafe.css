@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(#0000003d, #0000003d), url("https://thumbs.dreamstime.com/b/fundo-do-caf%C3%A9-30378071.jpg");
+    padding: 0;
+}
+.fundo-cafe{
+    background-color: wheat;
+    height: 240px;
+    margin: 30px 220px;
+    border: solid black 1px;
+    padding: 20px 50px; 
+}
+.img{
+    height: 120px;
+    width: 120px;
+}
+
+h1{
+    text-align: center;
+    color: linear-gradient(#c03706,#e95105);
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    ;
+    margin: 0;
+
+}
+
+th{
+    border: solid black 2px;
+}
+
+td{
+    border: solid black 2px;
+    text-align: center;
+    border-radius: 15px 0 15px 0;
+}
