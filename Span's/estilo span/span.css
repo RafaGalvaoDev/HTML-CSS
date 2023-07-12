@@ -1,0 +1,33 @@
+.roxo{
+    color: rgb(120, 1, 255);
+    background: green;
+}
+
+.azul{
+    color: blue;
+    background: pink;
+}
+
+.verde{
+    color: green;
+    background: purple;
+}
+
+.rosa{
+    color: rgb(223, 34, 160);
+    background: blue;
+}
+
+.preto{
+    color: #000;
+    background: green;
+    width: 255px;
+    text-align: center;
+}
+
+.amarelo{
+    color: yellowgreen;
+    background: #000;
+    width: 255px;
+    text-align: center;
+}
