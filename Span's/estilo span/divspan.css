@@ -1,0 +1,40 @@
+.divs{
+    width: 255px;
+    height: 100px;
+    background: rgb(1, 104, 129);
+    border: solid 2px black;
+}
+
+.span{
+    background-color: aqua;
+    
+}
+
+.cabe{
+    text-align: center;
+    font-size: 23px;
+}
+
+.dias{
+    border: solid 2px black;
+    text-align: center;
+    margin: 0 440px;
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+table, tr, th{
+    border: solid 2px black;
+    text-align: center;
+    
+    margin: 0 300px;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+}
+
