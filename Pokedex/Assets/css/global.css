@@ -1,0 +1,57 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://images3.alphacoders.com/901/901604.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+.content{
+    padding: 1rem;
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    /* background-color: #ffffff; */
+    background-image: url('');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    background-image: url('https://archives.bulbagarden.net/media/upload/9/96/Pok%C3%A9dex_FRLG.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+@media screen and (min-width: 992px) {
+
+    .content{
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+
+section.h1{
+    margin: 0;
+}
+
+.pokemons{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+
