@@ -1,0 +1,53 @@
+header{
+    text-align: center;
+}
+
+
+body{
+    background-color: blanchedalmond;
+    
+}
+
+.div-text{
+    
+    box-sizing: border-box;
+}
+
+.text{
+    
+    
+}
+
+.giphy{
+    margin: 0 350px;
+    
+}
+
+.h{
+    text-align: center;
+    
+}
+
+.t{
+    
+    padding: 0 520px;
+}
+
+.m{
+    padding: 0 530px;
+}
+    
+.l{
+    padding: 0 550px;
+}
+
+.giphy-personagem{
+    
+    padding: auto;
+    margin: 0 370px;
+    box-sizing: content-box;
+}
+
+.pe-text{
+   text-align: center;
+}
