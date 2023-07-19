@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: greenyellow;
+}
+
+.c1{
+    margin-top: 70px;
+    margin-left: 75px;
+    border: double 20px rgba(233, 8, 214, 0.623);
+    width: 50%;
+    text-align: center;
+    height: 700px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.c1-1{
+    height: 350px;
+    width: 100%;
+    background-image: url("https://wallpapercave.com/wp/gJRr40J.jpg");
+    background-size: contain;
+    margin-top: 20px;
+}
+
+.primeiro{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    
+}
+
+#dentro1{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    filter: blur(2px);
+    width: 500px;
+    height: 500px;
+    background: url("https://img.freepik.com/fotos-premium/antigo-fundo-de-textura-de-papel-amassado-marrom-papel-de-parede-vintage_118047-11001.jpg?w=740");
+    border: solid black 1px;
+}
+
+.dentro2{
+    border: black 4px thin;
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    background: url("https://i2.wp.com/mirelletome.com/wp-content/uploads/2017/06/IMG_6048.jpg?fit=2784%2C1856");
+    background-size: cover;
+    border-right: 2px solid black;
+    border-top: 5px solid red
+
+}
+
+.dentro3{
+    margin: 20px;
+    width: 500px;
+    height: 200px;
+    border: black 4px double;
+    background-color: aquamarine;
+    border-radius: 100px;
+    
+    
+}
+
+.dentro4{
+    width: 99%;
+    height: 500px;
+    border: solid red 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dentro4-1{
+    height: 500px;
+    background-image: url("https://wallpapercave.com/wp/gJRr40J.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    filter: none;
+    filter: blur(1px);
+    
+}
+
+#h1{
+    background-image: url("http://coelhos.animais.info/Imagens/raca-de-coelho-tan-preto.jpg");
+    background-size: 110px;
+    height: 200px;
+    background-position: center;
+    background-repeat: repeat-y;
+    border: black 4px thick;
+    
+    
+}
