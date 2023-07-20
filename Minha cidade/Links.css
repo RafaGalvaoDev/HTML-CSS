@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(#00000057, #00000059), url("https://wallpapercave.com/wp/wp8822253.jpg");
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-shadow: 1px 1px 5px #fd0000f3;
+}
+
+.div1{
+    display: inline-flex;
+    padding-top: 40px;
+}
+
+.div1-1{
+    margin-right: 50px;
+    
+}
+
+.navebar{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navebar, a{
+    text-decoration: none;
+    color: white;
+    top: 2em;
+    left: 1em;
+    width: 9em;
+    font-size: 1.7vw;
+}
+
+.titulo1{
+    font-family: 'Mogra', cursive;
+    font-size: 3vw;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+}
+
+.div1-2-video{
+    height: 30vw;
+    width: 70vw;
+}
