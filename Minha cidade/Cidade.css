@@ -1,0 +1,110 @@
+body{
+    background: linear-gradient(#00000057, #00000059), url("https://wallpapercave.com/wp/wp8822253.jpg");
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-shadow: 1px 1px 5px #fd0000f3;
+}
+
+.div1{
+    display: inline-flex;
+    padding-top: 40px;
+}
+
+.div1-1{
+    margin-right: 50px;
+    
+}
+
+.navebar{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navebar, a{
+    text-decoration: none;
+    color: white;
+    top: 2em;
+    left: 1em;
+    width: 9em;
+    font-size: 1.7vw;
+}
+
+
+.titulo1{
+    font-family: 'Mogra', cursive;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.text1{
+    font-size: 2vw;
+}
+
+.div2{
+    display: inline-flex;
+}
+
+.cidade1{
+    height: 30vw;
+    width: 30vw;
+    margin-left: 2vw;
+}
+
+.cidade2{
+    height: 30vw;
+    width: 30vw;
+    margin-left: 2vw;
+    
+}
+
+.cidade3{
+    height: 30vw;
+    width: 30vw;
+    margin-left: 2vw;
+    
+}
+
+
+
+.titulo2{
+    font-family: 'Mogra', cursive;
+    font-size: 4vw;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+}
+
+.div3-1{
+    display: inline-block;
+}
+
+.comidas{
+    font-family: 'Mogra', cursive;
+    font-size: 1.7vw;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 2vw;
+
+}
+
+.div3-img{
+    width: 30vw;
+    height: 30vw;
+    margin-right: 1vw;
+}
+
+.titulo3{
+    padding-top: 2vw;
+   
+    font-family: 'Mogra', cursive;
+    font-size: 3vw;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+}
+
+
+.div4-video{
+    height: 30vw;
+    width: 70vw;
+    margin-left: 15vw;
+}
