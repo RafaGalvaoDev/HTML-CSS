@@ -1,0 +1,35 @@
+.cabeçalho{
+    color: wheat;
+}
+
+
+
+.paragrafo1{
+    font-style: italic;
+}
+
+.paragrafo2{
+    text-decoration: underline;
+}
+
+.paragrafo3{
+    font-size: xx-large;
+    display: inline-block;
+}
+
+.paragrafo4{
+    font-size: xx-small;
+    display: inline-block;
+}
+
+.paragrafo5{
+    display: inline-block;
+}
+
+.paragrafo6{
+    display: inline-block;
+}
+
+.paragrafo7{
+    display: inline-block;
+}
