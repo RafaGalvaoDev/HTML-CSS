@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.noticia-foto-fundo{
+    background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fafectadospopular.eu%2Fwp-content%2Fuploads%2F2017%2F06%2FNoticias.jpg&f=1&nofb=1&ipt=efc2fae71baaf3ad6fe6618cefbd08118a48488f9dc8ad097a2fd187f375b1c0&ipo=images");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.nav{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: red;
+    padding: 10px;
+}
+
+.navbut{
+    text-decoration: none;
+    padding: 20px;
+    color: red;
+}
+
+.navbut:hover{
+    color: black;
+}
+
+#noticias-2{
+    padding-left: 20px;
+    font-size: 2rem;
+    margin-top: 10px;
+    color: green;
+}
+
+.noticiasone{
+    text-decoration: none;
+    color: green;
+}
+.noticiasone:visited{
+    color: black;
+}
+
+.noticiastwo{
+    text-decoration: none;
+    color: blue;
+}
+.noticias{
+    display: inline-flex;
+    font-size: 1.2em;
+}
+
+.noticia1{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.noticia2{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+
