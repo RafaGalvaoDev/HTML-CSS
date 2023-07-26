@@ -1,0 +1,27 @@
+.nome{
+    color: rgb(6, 209, 199);
+    font-family: 'Arial';
+    width: 45px 0;
+    height: 45px;
+    padding: 20px;
+}
+
+h1{
+    color: #0cd14e;
+    font-family: 'Arial';
+}
+.lets{
+    width: 35%;
+}
+.html{
+    width: 55%;
+    margin: 5px;
+}
+p{
+    font-size: 33px;
+    color: red;
+}
+
+body{
+    background: #000;
+}
