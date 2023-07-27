@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+    }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+<h2>Galeria de imagens responsiva</h2>
+
+<h4>Redimensione a janela do navegador para ver o efeito.</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.virgula.com.br%2F2019%2F03%2Fcinque-terre_5.png&f=1&nofb=1&ipt=5c3831c6f09926fb62417d6593eeb6bcf1323acb2a1a24625bc506596d0a7dd4&ipo=images">
+      <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.virgula.com.br%2F2019%2F03%2Fcinque-terre_5.png&f=1&nofb=1&ipt=5c3831c6f09926fb62417d6593eeb6bcf1323acb2a1a24625bc506596d0a7dd4&ipo=images" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Adicione uma descrição da imagem aqui</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href=""https://foundtheworld.com/wp-content/uploads/2014/07/Capilano-Suspension-Bridge-4-500x248.jpg">
+      <img src="https://foundtheworld.com/wp-content/uploads/2014/07/Capilano-Suspension-Bridge-4-500x248.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Adicione uma descrição da imagem aqui</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://www.milescapadas.com/wp-content/uploads/2015/10/Fotolia_90365934_Subscription_XL.jpg">
+      <img src="https://www.milescapadas.com/wp-content/uploads/2015/10/Fotolia_90365934_Subscription_XL.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+ <div class="desc">Adicione uma descrição da imagem aqui</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://images3.alphacoders.com/190/190675.jpg">
+      <img src="https://images3.alphacoders.com/190/190675.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Adicione uma descrição da imagem aqui</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style=" padding: 7px">
+
+  <p>Este exemplo usa consultas de mídia para reorganizar as imagens em diferentes tamanhos de tela: para telas maiores que 700px de largura, ele mostrará quatro imagens lado a lado, para telas menores que 700px, mostrará duas imagens lado a lado. Para telas menores que 500px, as imagens serão empilhadas verticalmente (100%). </p>
+  <p>Você aprenderá mais sobre consultas de mídia e web design responsivo posteriormente em nosso Tutorial de CSS.</p>
+</div>
+
+</body>
+</html>
