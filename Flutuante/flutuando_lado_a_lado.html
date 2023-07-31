@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.img-container1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.img-container2 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.img-container3 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<h2>Imagens Lado a Lado</h2>
+<p>Imagens flutuantes lado a lado:</p>
+<div class="clearfix">
+  <div class="img-container1">
+  <img src="https://www.segurospromo.com.br/blog/wp-content/uploads/2019/05/roteiro-italia.jpg" alt="Italy" style="width:100%">
+  </div>
+  <div class="img-container2">
+  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F1125776%2Fpexels-photo-1125776.jpeg%3Fcs%3Dsrgb%26dl%3Dforest-grass-green-1125776.jpg%26fm%3Djpg&f=1&nofb=1&ipt=b03d4d6f799fd4f668686a95e352c7733e51f893661c4194c816d141a165cdf4&ipo=images" alt="Forest" style="width:100% ; height: 275px;">
+  </div>
+  <div class="img-container3">
+  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs1.1zoom.me%2Fb5050%2F492%2FCanada_Parks_Mountains_487972_2560x1440.jpg&f=1&nofb=1&ipt=01395945fb0d15db6b0ea92ec5bb16c2fcf358e807cdc0b871c7ac77cc84bc61&ipo=images" alt="Mountains" style="width:100%; height: 275px;">
+  </div>
+</div>
+
+<p>Observe que também usamos o hack clearfix para cuidar do fluxo de layout e adicionamos a propriedade box-sizing para garantir que o contêiner da imagem não quebre devido ao preenchimento extra. Tente remover este código para ver o efeito.</p>
+
+</body>
+</html>
