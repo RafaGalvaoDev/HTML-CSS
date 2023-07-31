@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<h2>Grade de Caixas</h2>
+<p>Caixas flutuantes lado a lado:</p>
+<div class="clearfix">
+  <div class="box" style="background-color:#bbb">
+  <p>Algum texto dentro da caixa.</p>
+  </div>
+  <div class="box" style="background-color:#ccc">
+  <p>Algum texto dentro da caixa.</p>
+  </div>
+  <div class="box" style="background-color:#ddd">
+  <p>Algum texto dentro da caixa.</p>
+  </div>
+</div>
+
+<p><strong>Observação:</strong> aqui, usamos o hack clearfix para cuidar do fluxo do layout. Também usamos a propriedade box-sizing para garantir que a caixa não quebre devido ao preenchimento extra. Tente remover este código para ver o efeito.</p>
+
+</body>
+</html>
