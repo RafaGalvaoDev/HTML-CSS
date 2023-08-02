@@ -1,0 +1,43 @@
+.linha-topo{
+    border: 0px;
+    border-top: solid black;
+    background: black;
+
+}
+.titulo{
+    color: blue;
+    text-align: center;
+    font-family: tahoma;
+    font-size: 35px;
+    
+}
+h5{
+    text-align: center;
+}
+.linha-meio{
+    border: 0;
+    border-top: solid white;
+}
+body{
+    background-color: #ccc;
+}
+
+.anjo{
+
+    margin: 10px 375px;
+}
+
+.texto{
+    text-align: center;
+    
+
+}
+
+.sita{
+    margin: 40px 0;
+    text-align: center;
+    font-style: italic;
+    text-decoration:wavy;
+    
+
+}
