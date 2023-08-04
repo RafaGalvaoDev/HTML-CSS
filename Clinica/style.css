@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#div-titulo{
+    background-color: #443c3c;
+    border-radius: 10px;
+    height: 100px;
+}
+#titulo{
+    padding-top: 10px;
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-size: 4rem;
+}
+.nav{
+    text-align: center;
+    margin-top: 2px;
+    background-color: #5c5252;
+    border-radius: 10px;
+    height: 40px;
+    padding-top: 12px;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.7rem;
+    color: white;
+
+}
+
+a:hover{
+    color: #ff0000;
+    background-color: #5c5252;
+    text-shadow: 5px 5px 5px black;
+}
+
+.bem-vindos{
+    padding-left: 25px;
+    font-size: 1.3rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.missao{
+    padding-left: 25px;
+    font-size: 1.3rem;
+}
+.valores{
+    padding-left: 25px;
+    font-size: 1.3rem;
+}
+.principios{
+    padding-left: 25px;
+    font-size: 1.3rem;
+    
+}
+.pe{
+    background-color: #443c3c;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    height: 50px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+#roda-pe{
+   padding-top: 20px;
+}
