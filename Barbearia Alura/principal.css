@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.log-nome{
+    display: inline-flex;
+    padding-left: 30vw;
+    text-align: center;
+}
+
+#nome-barber{
+    text-align: center;
+    margin-top: 3vw;
+    margin-left: 3.2vw;
+    
+}
+
+
+.logo{
+    height: 9rem;
+    width: 7rem;
+}
+
+.cabeca{
+
+}
+
+
+ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    font-size: 2rem;
+}
+li , a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+    
+}
+a:hover{
+    color: #fbff00;
+    text-shadow: 2px 2px 5px black;
+}
+
+.img-cadeira{
+    background: linear-gradient(#0000008e, #0000004f) ,url("https://angelicaalbuquerque.github.io/barbearia_alura/banner-1600x600.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    color: yellow;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#sobre{
+    margin-top: 10px;
+    font-size: 2.7vw;
+    text-align: center;
+}
+.text1{
+    margin-right: 100px;
+}
+
+#barbeador-img{
+    height: 120px;
+    width: 120px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10vw;
+}
+
+.estabelecimento{
+    background: linear-gradient(#ffffff, #727171);
+    text-align: center;
+}
+
+#estabelecimento-titulo{
+    font-size: 3vw;
+}
+
+#estabelecimento-paragrafro{
+    font-size: 1.8vw;
+}
+
+.video{
+    padding-top: 20px;
+    padding-left: 25vw;
+    background: linear-gradient(#727172, #494949);
+}
+
+.roda-pe{
+
+    color: white;
+    background: black;
+
+}
+
+#logo-branca{
+    
+    margin-left: 45vw;
+}
+
+#copy{
+    margin-left: 42vw;
+
+
+}
