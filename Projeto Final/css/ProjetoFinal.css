@@ -1,0 +1,379 @@
+body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.fundo{
+    background: linear-gradient(#00000070, #00000094), url("https://cdnb.artstation.com/p/assets/images/images/005/397/723/large/joao-sanches-hamburguer-uhd.jpg?1490735421");
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    
+}
+
+.barra{
+    background-color: rgb(255, 124, 2);
+    height: 80px;
+    width: 700px;
+    border-radius: 0px 0px 50px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--bs--gutter-x, .75rem);
+    padding-right: var(--bs--gutter-x, .75rem);
+    
+}
+
+
+.imgs{
+    padding: 0 10px;
+    margin: 25px 3px;
+    height: 20px;
+    width: 20px;
+}
+
+.imgs:hover{
+   
+    image-orientation:from-image;
+    
+}
+
+.menu{
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    margin: 0 15px;
+}
+
+.menu:hover{
+    color: rgb(235, 53, 53);
+}
+
+.text-fome{
+    color:#ffbb00;
+    font-family: 'Pacifico', cursive;
+    margin: 20px 100px;
+    
+}
+
+.text-noite{
+    color: white;
+    font-size: 55px;
+    margin: 20px 100px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.tipos{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-flex;
+    width: 99.6%;
+    
+}
+
+.tipo-burguer{
+    border: solid white 1px;
+    margin-left: 50px;
+} 
+
+.tipo-subsand{
+    border: solid white 1px;
+    margin-left: 50px;
+}
+
+.tipo-beef{
+    border: solid white 1px;
+    margin-left: 50px;
+}
+
+.tipo-batatas{
+    border: solid white 1px;
+    margin-left: 50px;
+}
+
+.tipo-burguer:hover{
+    border: solid orange 1px;
+}
+
+.tipo-subsand:hover{
+    border: solid orange 1px;
+}
+
+.tipo-beef:hover{
+    border: solid orange 1px;
+}
+
+.tipo-batatas:hover{
+    border: solid orange 1px;
+}
+
+.tipo-img{
+    height: 150px;
+    width: 150px;
+    padding: 25px 50px;
+}
+
+.tipo1{
+    background: linear-gradient(#000000a1, #0000007a) , url("https://static.vecteezy.com/ti/vecteur-libre/p1/5276355-seamless-pattern-pizza-ingredients-background-tomate-ail-basilic-olive-poivron-champignon-vectoriel.jpg");
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    padding-top: 20px;
+    display: inline-flex;
+
+}
+
+.tipo1-pizza{
+    background: linear-gradient(#0000004d, #00000065), url("https://claudia.abril.com.br/wp-content/uploads/2020/07/pizza-pepperoni.jpg?quality=85");
+    background-size: cover;
+    width: 450px;
+    height: 450px;
+    border-radius: 50px;
+    margin-left: 120px;
+    text-align: center;
+   
+}
+
+.pizza1{
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    padding-top: 10px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+.pizza{
+    padding: 5px 0;
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+
+
+.valor-pizza{
+   
+    color: yellow;
+    font-size: 27px;
+    font-family: 'Fjalla one', sans-serif;
+    text-align: center;
+}
+
+.tipo1-burger{
+    height: 220px;
+    width: 550px;
+    background: linear-gradient(#000000a1, #00000094), url("https://img.elo7.com.br/product/main/3D66BAB/adesivo-hamburguer-artesanal-batata-rustica-assada-carne-painel-lanche.jpg");
+    background-size: cover;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+
+.burguer1{
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    padding-top: 17px;
+}
+
+.burguer{
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+
+    
+}
+
+.valor-burguer{
+    color: yellow;
+    text-align: center;
+    font-family: 'Fjalla one', sans-serif;
+}
+
+.tipo1-1{
+    margin-left: 40px;
+    padding: 0;
+}
+
+.tipo1-prato{
+    height: 220px;
+    width: 550px;
+    background: linear-gradient(#0000004d, #000000a1), url("https://static.vecteezy.com/ti/fotos-gratis/p1/22774535-mulher-sentado-com-flor-ramalhete-de-comida-em-jantar-mesa-ilustracao-ai-generativo-gratis-foto.jpg");
+    background-size: cover;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-top: 17px;
+}
+
+.prato1{
+    color: white;
+    font-family: 'Fjalla one', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+.prato{
+    color: white;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    margin: 0;
+}
+
+.valor-prato{
+    color: yellow;
+    text-align: center;
+    font-family: 'Fjalla one', sans-serif;
+}
+
+.tipo2{
+    height: 420px;
+    background: linear-gradient(#0000004d, #000000a1), url("https://i.pinimg.com/originals/9e/b2/aa/9eb2aa996850290a978e9673d2f23511.jpg");
+    background-size: cover;
+    padding-top: 10px;
+    border: solid black 0.05px;
+    
+
+}
+
+.tipo2-video{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-family: 'Fjalla one', sans-serif;
+    
+
+}
+
+.tipo3{
+    height: 500px;
+    display: inline-flex;
+    margin: 0;
+    width: 99.6%;
+    
+}
+
+.tipo3-img{
+    background: url("https://themeoy.com/html/burgera/assets/img/home-page/about-bg.png");
+    margin-top: 20px;
+    margin-left: 100px;
+    height: 450px;
+    width: 600px;
+    border-radius: 50px;
+    background-size: cover;
+    border: black solid 2px;
+    
+}
+
+.tipo3-text{
+    color: red;
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+    margin-top: 70px;
+    text-align: justify;
+    height: 450px;
+    margin: 20px;
+    width: 400px;
+    padding: 0 15px;
+}
+
+#tipo3-text-titulo{
+    color: #ffbb00;
+    font-family: 'Fjalla one', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.tipo3-button{
+    background-color: rgb(235, 53, 53);
+    height: 40px;
+    width: 120px;
+    margin-left: 130px;
+    border-radius: 40px;
+    color: white;
+    font-family: 'Fjalla one', sans-serif;
+    text-align: center;
+   
+}
+
+#tipo3-button{
+    padding-top: 5px;
+}
+
+.tipo3-button:hover{
+    background-color: white;
+    color: rgb(235, 53, 53);
+    font-family: 'Fjalla one', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.pezin{
+    margin-top: 5px;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    display: inline-flex;
+   
+}
+
+.ender{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 150px;
+    padding-top: 10px;
+    
+}
+
+.func{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+#tab, tr,td{
+    text-align: center;
+    
+}
+
+
+.roda-pe-img{
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 150px;
+    padding-top: 5px;
+    
+
+}
+
+
+.pezin-imgs{
+    height: 50px;
+    width: 50px;
+}
+
+.copy{
+    color: #000;
+    text-align: center;
+}
+
