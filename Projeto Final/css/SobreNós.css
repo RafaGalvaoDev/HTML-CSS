@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.barra{
+    background-color: rgb(255, 124, 2);
+    height: 80px;
+    width: 700px;
+    border-radius: 0px 0px 50px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--bs--gutter-x, .75rem);
+    padding-right: var(--bs--gutter-x, .75rem);
+    
+    
+}
+
+
+.imgs{
+    padding: 0 10px;
+    margin: 25px 3px;
+    height: 20px;
+    width: 20px;
+}
+
+.imgs:hover{
+   
+    image-orientation:from-image;
+    
+}
+
+.menu{
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    margin: 0 15px;
+}
+
+.menu:hover{
+    color: rgb(235, 53, 53);
+}
+
+
+.sobre{
+    height: 100px;
+
+    
+}
+
+
+
+#sobrenos{
+    text-align: center;
+    font-family: 'Fjalla one', sans-serif;
+    font-size: 45px;
+    margin: 25px 0;
+    
+}
+
+.sobre1{
+    height: 650px; 
+}
+
+.sobre2{
+    display: inline-flex;
+    margin-left: 170px;
+}
+
+.sobrenos-img{
+    margin-top: 40px;
+    margin-left: 20px;
+    background: url("https://media.istockphoto.com/id/1256670482/pt/foto/turkey-sandwich-with-tomato-and-lettuce.jpg?s=612x612&w=0&k=20&c=MLirHAQZLFdYoFfhV34QFbOYDfGY1Emm3K_FV28jNuQ=");
+    background-size: cover;
+    height: 200px;
+    width: 250px;
+  
+
+}
+
+.sobrenos-historia{
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 200px;
+    width: 250px;
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#sobre-historia{
+    margin: 0;
+    padding: 0 5px;
+    text-align: justify;
+}
+
+.sobrenos-megaimg{
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px 0 20px 0;
+    background: url("https://www.oetker.com.br/Recipe/Recipes/oetker.com.br/br-pt/savory/image-thumb__146346__RecipeDetail/pao-para-hamburguer.webp");
+    background-size: cover;
+}
+
+.sobre3{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 200px;
+    text-align: center;   
+    padding-top: 20px;
+}
+
+#sobre3-text{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#sobre3-text1{
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+
+.pezin{
+    margin-top: 5px;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    display: inline-flex;
+   
+}
+
+.ender{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 150px;
+    padding-top: 10px;
+    
+}
+
+.func{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+#tab, tr,td{
+    text-align: center;
+}
+
+
+.roda-pe-img{
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 150px;
+    padding-top: 5px; 
+}
+
+
+.pezin-imgs{
+    height: 50px;
+    width: 50px;
+}
+
+.copy{
+    color: #000;
+    text-align: center;
+}
