@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.barra{
+    background-color: rgb(255, 124, 2);
+    height: 80px;
+    width: 700px;
+    border-radius: 0px 0px 50px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--bs--gutter-x, .75rem);
+    padding-right: var(--bs--gutter-x, .75rem);
+    
+    
+}
+
+
+.imgs{
+    padding: 0 10px;
+    margin: 25px 3px;
+    height: 20px;
+    width: 20px;
+}
+
+.imgs:hover{
+   
+    image-orientation:from-image;
+    
+}
+
+.menu{
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    margin: 0 15px;
+}
+
+.menu:hover{
+    color: rgb(235, 53, 53);
+}
+
+.produto1{
+    display: inline-flex;
+    height: 400px;
+    padding-left: 150px;
+    
+}
+
+.produto1-img{
+    margin-top: 70px;
+    margin-left: 90px;
+    background: url("https://static.wixstatic.com/media/54cb16_526556347e21456a9b10bd136d0d2fda~mv2.png/v1/fill/w_600,h_436,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/promo_quarta.png");
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+   
+
+}
+
+#texto-produto{
+    font-family: 'Fjalla one', sans-serif;
+    color: black;
+    font-size: 25px;
+
+}
+
+.produto2-img{
+    margin-top: 70px;
+    margin-left: 90px;
+    background: url("https://img.freepik.com/free-photo/fresh-tasty-sandwich_144627-17220.jpg?w=740&t=st=1683911245~exp=1683911845~hmac=6e2e1cc178773b0b57e55c9994dd5a1521c076931d8da32997e8cf4223ef82c2");
+    height: 350px;
+    width: 400px;
+    background-size: cover;
+   
+
+}
+.produto3-img{
+    margin-top: 120px;
+    margin-left: 90px;
+    background: url("https://www.pngarts.com/files/10/Chicken-Nuggets-PNG-Image-Background-420x193.png");
+    height: 200px;
+    width: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+
+}
+.produto4-img{
+    margin-top: 10px;
+    margin-left: 90px;
+    background: url("https://static.vecteezy.com/system/resources/previews/013/442/144/non_2x/crispy-and-delicious-french-fries-free-png.png");
+    height: 330px;
+    width: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+
+}
+
+.produto1-text{
+    width: 400px;
+    margin-left: 80px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Fjalla one', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 72, 0);
+    
+    
+}
+
+
+.pezin{
+    margin-top: 5px;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    display: inline-flex;
+   
+}
+
+.ender{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 150px;
+    padding-top: 10px;
+    
+}
+
+.func{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+#tab, tr,td{
+    text-align: center;
+}
+
+
+.roda-pe-img{
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 150px;
+    padding-top: 5px; 
+}
+
+
+.pezin-imgs{
+    height: 50px;
+    width: 50px;
+}
+
+.copy{
+    color: #000;
+    text-align: center;
+}
+
