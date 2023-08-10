@@ -1,0 +1,300 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.barra{
+    background-color: rgb(255, 124, 2);
+    height: 80px;
+    width: 700px;
+    border-radius: 0px 0px 50px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--bs--gutter-x, .75rem);
+    padding-right: var(--bs--gutter-x, .75rem);
+    
+    
+}
+
+
+.imgs{
+    padding: 0 10px;
+    margin: 25px 3px;
+    height: 20px;
+    width: 20px;
+}
+
+.imgs:hover{
+   
+    image-orientation:from-image;
+    
+}
+
+.menu{
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    margin: 0 15px;
+}
+
+.menu:hover{
+    color: rgb(235, 53, 53);
+}
+
+.shop1{ 
+    height: 200px;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 200px;
+    display: inline-flex;
+
+
+}
+
+
+
+.shop-img1{
+    margin: 0 20px;
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: url("https://nevaskasorveteria.com.br/uploads/imagens/9fb0df8f5052e9622db9600337f6512c.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid white 0.1px;
+    
+}
+
+.shop-img1:hover{
+    border: #000 solid 0.1px;
+}
+
+.shop-img2{
+    margin: 0 20px;
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: url("https://matsoliver.com.br/wp-content/uploads/2020/10/2-768x764.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid white 0.1px;
+}
+
+.shop-img2:hover{
+    border: #000 solid 0.1px;
+}
+
+.shop-img3{
+    margin: 0 20px;
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: url("https://static.wixstatic.com/media/58d57d_4ebb0c3d8ca3417792649582895318e0~mv2.png/v1/fill/w_386,h_386,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2_edited.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid white 0.1px;
+}
+
+.shop-img3:hover{
+    border: #000 solid 0.1px;
+}
+
+.shop-img4{
+    margin: 0 20px;
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: url("https://img-anuncio.listamais.com.br/imagens_anuncio/508606/assets/img/marmita.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid white 0.1px;
+}
+
+.shop-img4:hover{
+    border: #000 solid 0.1px;
+}
+
+.shop-img5{
+    margin: 0 20px;
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: url("https://s3-sa-east-1.amazonaws.com/static.donuz.co/resources/uploads/lojaDePremios/premioImagem/202002051853511691795747.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: white solid 0.1px;
+}
+
+.shop-img5:hover{
+    border: #000 solid 0.1px;
+}
+
+.shop2{
+    height: 250px;
+    padding-top: 0;
+    padding-right: 20px;
+    padding-left: 200px;
+    display: inline-flex;
+   
+}
+
+
+.shop-img6{
+    margin: 10px 20px;
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: url("https://static.vecteezy.com/system/resources/previews/018/246/181/large_2x/delicious-chocolate-cake-sweet-chocolate-cake-slice-transparent-background-png.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: white solid 0.1px;
+    
+}
+
+.shop-img6:hover{
+    border: solid black 0.1px;
+}
+
+
+.shop-img7{
+    margin: 10px 20px;
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: url("https://i.pinimg.com/564x/55/40/8a/55408a206f09656474dddeed2ca05285.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: white solid 0.1px;
+    
+}
+
+.shop-img7:hover{
+    border: solid black 0.1px;
+}
+
+.shop-img8{
+    margin: 10px 20px;
+    height: 150px;
+    width: 150px;
+    background: url("https://grupogustamais.com.br/wp-content/uploads/2021/08/leitinho-picole.png");
+    background-size: cover;
+    border: white solid 0.1px;
+    
+}
+
+.shop-img8:hover{
+    border: solid black 0.1px;
+}
+
+.shop-img9{
+    margin: 10px 20px;
+    height: 150px;
+    width: 150px;
+    background: url("https://www.pngall.com/wp-content/uploads/4/Jelly-Belly-PNG-Image-File.png");
+    background-size: cover;
+    border: white solid 0.1px;
+    
+}
+
+.shop-img9:hover{
+    border: solid black 0.1px;
+}
+
+
+.shop-img10{
+    margin: 10px 20px;
+    height: 150px;
+    width: 150px;
+    background: url("https://www.canopuscervejaria.com.br/images/beer3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: white solid 0.1px;
+    
+}
+
+.shop-img10:hover{
+    border: solid black 0.1px;
+}
+
+
+
+
+
+.shop-text{
+    text-align: center;
+    font-family: 'Fjalla one', sans-serif;
+    color: rgb(255, 124, 2);
+    border: solid black 1px;
+    margin-right: 10px;
+    border-radius: 20px 0 20px 0;
+}
+
+
+.shop1-text{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+
+.pezin{
+    margin-top: 5px;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    display: inline-flex;
+   
+}
+
+.ender{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 150px;
+    padding-top: 10px;
+    
+}
+
+.func{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+#tab, tr,td{
+    text-align: center;
+}
+
+
+.roda-pe-img{
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 150px;
+    padding-top: 5px; 
+}
+
+
+.pezin-imgs{
+    height: 50px;
+    width: 50px;
+}
+
+.copy{
+    color: #000;
+    text-align: center;
+}
