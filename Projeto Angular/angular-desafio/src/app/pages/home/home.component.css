@@ -1,0 +1,109 @@
+.content{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+
+#logo{
+    margin: 0px;
+    padding: 15px 0px;
+    color: white;
+    text-align: center;
+    font-size: 2.4em;
+    font-family: 'Pangolin', cursive;
+}
+
+p{
+    margin-left: 5px;
+    text-align: justify;
+    color: white;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.cont{
+    margin: 0px auto;
+    width: 350px;
+
+}
+.cont > h2{
+    margin-top: 10px;
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+} 
+
+.esquerdo{
+    width: 500px;
+    height: 620px;
+    background-color: #FF5C00;
+}
+
+
+.cont > span{
+    display: block;
+   
+    border-radius: 50%;
+    margin: 0px auto;
+    height: 200px;
+    width: 200px;
+    background-image: url("https://media.baamboozle.com/uploads/images/603932/1662732488_476879_gif-url.gif");
+    background-size: cover;
+}
+
+.direito{
+    width: 780px;
+}
+
+.direito > span{
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://static.wixstatic.com/media/c12ed4_b09d732aa8854ea7b197dff1b122b2a1~mv2.png/v1/fill/w_532,h_214,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bk-burger_edited.png");
+    border-radius: 25%;
+    border: solid black .8px;
+}
+
+
+.menuzinho{
+    width: 700px;
+    text-align: right;
+    margin: 10px;
+}
+
+.menuzinho > ul > li{
+    display: inline;
+    padding: 5px;
+    text-align: right;
+
+} 
+
+a{
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: right;
+    color: black;
+
+}
+
+.fotinho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fotinho > span{
+    width: 540px;
+    height: 540px;
+    background-image: url("https://i.pinimg.com/564x/db/00/86/db0086b26d9208e64dee9b4bcb1ea0a4.jpg");
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px auto;
+}
