@@ -1,0 +1,21 @@
+<canvas width="600"  height="400" ></canvas>
+<script>
+    var tela = document.querySelector("canvas");
+    var pincel = tela.getContext("2d");
+
+    pincel.fillStyle = "black";
+    pincel.fillRect(0, 0, 600, 400);
+
+    function alert(evento){
+        var x = evento.pageX - tela.offsetLeft;
+        var y = evento.pageY - tela.offsetTop;
+        pincel.fillStyle = "white";
+        pincel.beginPath();
+        pincel.arc(x, y, 10, 0, 2 * 3.14);
+        pincel.fill();
+
+
+    }
+
+    tela.onclick = alert;
+</script>
