@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+<script>
+    function jump_Lines(){
+        document.write("<br><br>")
+    }
+
+    function print(phrase){
+        document.write(phrase)
+    }
+
+    var vitorias = parseInt(prompt("Digite a Quantidade de Vitorias do Seu Time: "));
+    var empates = parseInt(prompt("Digite a Quantidade de Empates do Teu Time: "));
+
+    var pontos_Totais = (vitorias * 3) + empates;
+
+    if( pontos_Totais < 30 ) {
+        print("O Seu Time Esta Pior que o Ano Anterior.");
+    }
+    if ( pontos_Totais > 30 ) {
+        print("O Seu Time Esta Melhor que o Ano Anterior.");
+    }
+    if( pontos_Totais == 30 ){
+        print("O Seu Time Esta Igual ao Ano Anterior.");
+    }
+</script>
