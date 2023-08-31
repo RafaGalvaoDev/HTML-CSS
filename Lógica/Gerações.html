@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+<script>
+    function jump_Line(){
+        document.write("<br><br>")
+    }
+
+    function print(phrase){
+        document.write(phrase)
+    }
+
+    function year(){
+        new Date().getFullYear();
+        var currentTime = new Date();
+        var year = currentTime.getFullYear();
+        var geracion = year - 1500
+        document.write(Math.round(geracion / 28))
+
+
+    }
+    
+    year();
+    print(" Gerações desde 1500")
+
+</script>
