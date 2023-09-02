@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+<script>
+    function jump_Lines(){
+        document.write("<br><br>")
+    }
+    function print(phrase){
+        document.write(phrase);
+    }
+    function imc(peso, altura){
+        return peso / (altura*altura)
+    }
+    var peso = prompt("Digite Sue Peso: ")
+    var altura = prompt("Digite Sua Altura: ")
+    var imc = imc(peso, altura)
+
+    if(imc < 18.5){
+        print("O Seu Peso de " + peso + " Kg" + " Esta Abaixo da Média.")
+    }
+
+    if(imc >= 18.5){
+        print("O Seu Peso de " + peso + " Kg" + " Esta na Média.")
+    }
+
+    if(imc > 35){
+        print("O Seu Peso de " + peso +" kg" + " Esta muito Alto.")
+    }
+
+    jump_Lines()
+
+    print("O Seu Imc é de " + imc);
+
+</script>
