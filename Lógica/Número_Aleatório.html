@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+<script>
+        function jump_Lines(){
+        document.write("<br><br>")
+    }
+
+    function print(phrase){
+        document.write(phrase)
+    }
+
+    var numero_Computador = Math.round(Math.random()) * 10;
+    var numero_Entrada = parseInt(prompt("Digite Um Número Qualquer: "));
+
+    if(numero_Entrada == numero_Computador){
+        print("Voce Acertou, Seu Chute foi " + numero_Entrada + " e o Número Sortiado foi " + numero_Computador)
+        jump_Lines();
+        print("Parabens");
+    }
+
+    else{
+        print("Voce Errou, Seu Chute foi " + numero_Entrada + " e o Número Sortiado foi " + numero_Computador);
+        jump_Lines();
+        print("Tente Novamente.");
+    }
+</script>
