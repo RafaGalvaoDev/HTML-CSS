@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+<script>
+    function jump_Lines(){
+        document.write("<br><br>");
+    }
+
+    function print(phrase){
+        document.write(phrase);
+        jump_Lines();
+    }
+
+    var numero = parseInt(prompt("Digite um Número Qualquer: "));
+
+    for( var count = 1; count <= 10; count += 1 ){
+        print( numero + " X " + count + " = " +count * numero );
+    }
+</script>
