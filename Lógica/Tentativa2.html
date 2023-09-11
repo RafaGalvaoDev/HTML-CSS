@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+
+<input>
+<button>Comparar</button>
+
+<script>
+    var numero_Computador = Math.round(Math.random() * 10);
+    var input = document.querySelector("input");
+    input.focus();
+    var butao = document.querySelector("button")
+    function comparador(){
+        if(input.value == numero_Computador){
+            document.write("Voce Acertou!")
+
+        } else{
+            document.write("Voce Errou!");
+        }
+
+    }
+    butao.onclick = comparador;
+
+</script>
