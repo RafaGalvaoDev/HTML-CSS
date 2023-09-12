@@ -1,0 +1,37 @@
+<meta charset="UTF-8">
+<script>
+    function jump_Lines(){
+        document.write("<br><br>");
+    }
+
+    function print(phrase){
+        document.write(phrase);
+        jump_Lines();
+    }
+
+    var numero_Computador = Math.round(Math.random()) * 10;
+    var tentativa = 1;
+
+    while( tentativa <= 3 ){
+
+        var numero_Entrada = parseInt(prompt("Digite Um Número Qualquer: "));
+   
+        if(numero_Entrada == numero_Computador){
+            print("Voce Acertou, Seu Chute foi " + numero_Entrada + " e o Número Sortiado foi " + numero_Computador);
+            jump_Lines();
+            print("Parabens");
+            break;
+        }
+
+        else{
+            print("Voce Errou");
+            jump_Lines();
+            print("Tente Novamente.");
+            
+        }
+
+        tentativa++;
+
+    }
+    
+</script>
